@@ -1,0 +1,34 @@
+h1 {
+  color: #124952;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #353452;/*上線*/
+  border-bottom: solid 3px #353452;/*下線*/
+}
+body {
+  color: #ffffff;
+  background: #69adb8;
+  font-family: 'kei';
+  padding: 0;
+  margin: 10px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+	font-family: 'kei';
+	src: url(./kei.ttf);
+}
+.text
+{
+     color: #525252;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size : x-large;
+}
+code {
+  display: inline-block;
+  padding: 0.1em 0.25em; /* 文字周りの余白 */
+  color: #444; /* 文字色 */
+  background-color: #c9c9c9; /* 背景色 */
+  border-radius: 3px; /* 角丸 */
+  border: solid 1px #919191; /* 枠線 */
+}

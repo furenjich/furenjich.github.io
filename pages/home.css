@@ -1,0 +1,36 @@
+h1 {
+  position: relative;
+  padding: 0.5em;
+  background: #a6d3c8;
+  color: white;
+}
+.resizeimage img { width: 100%; }
+h1::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
+}
+@font-face {
+	font-family: 'kei';
+	src: url(./kei.ttf);
+}
+body {
+  color: #ffffff;
+  background: #69adb8;
+  font-family: 'kei';
+  padding: 0;
+  margin: 10px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.text
+{
+     color: #525252;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size : x-large;
+}

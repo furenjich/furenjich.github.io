@@ -1,0 +1,1 @@
+parent.右フレーム.location.href = "sidebar/sidebar.html";
